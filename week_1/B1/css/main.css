@@ -3,6 +3,7 @@ header, footer, aside, nav, article, figure, figcaption {
 }
 
 body{
+	
 	background-color:#3399FF; 
 	font-family: arial;
 	background: url("../images/background.jpeg") repeat;
@@ -10,8 +11,8 @@ body{
 }
 #wrapper{
     width:80%;
-    height:80%;
-    margin:auto auto auto auto;
+
+    margin:0 auto;
     border:1px solid #943506;
     padding-left:5%;
     padding-right: 5%;
