@@ -65,16 +65,14 @@ a[href^="http://"]:hover{
 	background:url(../_images.external_link.jpeg) no-repeat center;
 }
 
-#contact input option textarea[type="text"]{
-width: 5%;	
+#contact select input textarea[type="text"]{
+width: 1%;	
 }
-
 
 #contact{
 	background-color: #FF9933;
 	float: left;
 	width:100%;
-	margin:10% auto 10% auto;
 	text-align: center;	
 }
 input:disabled{
@@ -140,7 +138,8 @@ nav{
 nav li { 
 	display: inline; 
 	margin:auto 10% auto 10%;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
     font-size: 1em;
 
@@ -175,6 +174,129 @@ li{
 	font-size: 1.3em;
 	color:#006666;
 }
+
+@media screen and (min-width: 768px) and (max-width:959px){
+	 #wrapper {
+	 	background-color:#FFFFFF;
+	 	margin:10% auto 10% auto;
+	 	padding-left: 5%;
+	 	padding-right: 5%;
+	 	width:80%;
+	 }
+	 body{
+	 	font-size: .8em;
+	 }
+	 nav{
+	 	width: 80%;
+	 }
+	 #contact{
+	 	width:120%;
+	 }
+
+
+}
+@media only screen and (min-width: 480px) and (max-width:767px){
+#wrapper {
+	 	background-color:#000000;
+	 	margin:10% auto 10% auto;
+	 	padding-left: 5%;
+	 	padding-right: 5%;
+	 	width:80%;
+	 }
+	 body{
+	 	font-size: .7em;
+	 }
+	 nav{
+	 	width: 80%;
+	 }
+	 #contact{
+	 	width:140%;
+	 }
+
+	 footer{
+    	color:#FFFFFF;
+    }
+}
+@media only screen and  (max-width:479px){
+	body{
+		background: none;
+		font-size: .5em;
+		background-color:#CCFFFF;
+	}
+	#wrapper{
+		border: none;
+	}
+	#main{
+	float:none;
+    }
+    aside{
+    	float:none;
+    	width:50%;
+    }
+    section{
+    	font-size: .8em;
+    	width: 100%;
+    	
+    }
+
+
+#contact{
+	width:160%; 	
+    
+}
+nav{
+  font-size: 1em;
+  width: 50%;
+  margin:auto 0% auto 0%;
+}
+h1{
+	text-align: left;
+}
+
+footer{
+padding-right: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
