@@ -1,0 +1,161 @@
+header, footer, aside, nav, article, figure, figcaption {
+            display: block;
+}
+
+body{
+	
+	background-color:#3399FF; 
+	font-family: arial;
+	background: url("../images/background.jpeg") repeat;
+	
+}
+#wrapper{
+    width:80%;
+
+    margin:0 auto;
+    border:1px solid #943506;
+    padding-left:5%;
+    padding-right: 5%;
+    background-color:#CCFFFF;
+
+}
+#main{
+	padding-right: 10%;
+}
+section{
+	-moz-column-count:2;
+	-moz-column-gap:10%;
+	width: 80%;
+}
+section article{
+	border:3px dashed #FF9933;
+}
+#wrapper #content #main div:target h2 {
+	padding-left: 1%;
+	font-size:150%;
+	color:#ff5400;
+	background: url(../_images/star.jpeg)no-repeat left center;
+}
+
+#main{
+	float:left;
+	width:60%;
+	padding-bottom: 5%;
+	
+}
+#first h2 a[href$=".pdf"]{
+	padding: 10px;
+	background: url(../_images/pdf.jpeg) no-repeat center;
+}
+
+a[href^="http://"]:hover{
+	padding:5%;
+	background:url(../_images.external_link.jpeg) no-repeat center;
+}
+
+#contact[type="text"]{
+width: 5%;	
+}
+
+#contact{
+	background-color: #FF9933;
+	float: left;
+	width:100%;
+	margin:10% auto 10% auto;
+	text-align: center;	
+}
+input:disabled{
+	background-color:#D8D8D8;
+} 
+input:disabled{
+color: #FFFFFF;
+}
+
+ 
+aside{
+    float:left;
+	width:20%;
+	margin:5% auto 10% auto;
+	display:inline-block; 
+	padding-left:5%;
+
+}
+aside img[alt*="icon"]{
+	border:3px dashed #FF9933;
+}
+
+
+ 
+
+footer{
+clear:both;
+display:block;
+margin:10% auto 10% auto;
+text-align: center;
+
+}
+
+h1{
+	text-align: center;
+	color: #000066;
+}
+* h2{
+	color: #000066;
+}
+* h4{
+	color:#3399FF;
+}
+* h5{
+	color:#6600FF;
+}
+p{
+	color:#663300;
+}
+li{
+	color:#FF9933;
+}
+nav{
+	margin:10% auto 10% auto;
+    border: 1px solid #000099;
+    background-color: #FF9933;
+
+}
+nav li { 
+	display: inline; 
+	margin:10% auto 10% auto;
+    padding-left: 10%;
+
+		}
+a:link{
+     color:#000099; 
+     text-decoration: none;
+}
+
+a:visited{
+ color:#3399FF;
+}
+
+a:hover{
+  color:#006666; 
+  text-decoration: underline;
+}
+
+
+li{
+	list-style-type:square;
+
+}
+
+#books h5 ol:first-line{
+
+	color:#006666;
+
+}
+.one.two{
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.3em;
+	color:#006666;
+}
+
+
+
