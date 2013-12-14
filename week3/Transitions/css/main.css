@@ -1,0 +1,146 @@
+
+body{
+	color:#fff;
+	text-align: center;
+	font-family: "Lucida Console", sans-serif;
+	background: #340024;
+
+	
+}
+#page{
+	position: relative;
+	color:#000;
+	border: solid  3px #000;
+	border-radius: 3px;
+	margin: 10% 10%;
+	moz-perspective:500px;
+   -o-perspective:500px;
+   -webkit-perspective:500px;
+    perpective:500px;
+	
+
+
+}
+#header{
+	position: relative;
+
+
+}
+#menu{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+h1{
+	color: #fff;
+	-moz-text-transform:translate(10px, 10px)
+}
+a:link, a:visited{
+    text-decoration: none;
+    color:#b36b00;
+}
+a:hover, a:active{
+    color:#566440;
+}
+
+
+#gallery{
+	margin: 0 10%;
+	padding: 1%;
+	text-transform: 
+}
+
+#page #gallery .one{
+animation:warning 1.5s infinite ease-in;
+}
+#page #gallery .one:hover {
+	-o-transition:rotateY(360deg);
+   -webkit-transition:rotateY(360deg);
+    -moz-transition:rotateY(360deg);
+	transition:rotateY(360deg);
+
+}
+#page #gallery .two{
+-o-transition:skew(10deg);
+   -webkit-transition:skew(10deg);
+    -moz-transition:skew(10deg);
+	transition:skew(10deg);
+
+}
+#page #gallery .two:hover{
+	-o-tranform:translate(40px, 0px);
+   -webkit-transform:translate(40px, 0px);
+    -moz-transform:translate(40px, 0px);
+	transform:translate(40px, 0px);
+
+	}
+
+#page #gallery .three:hover{
+-o-tranform:scale(1.5);
+   -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+	transform:scale(1.5);
+
+
+}
+#page #gallery .four{
+-o-transition:all 2s ease;
+   -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+	transition:all 2s ease;
+
+
+}
+#page #gallery .five{
+	-o-transition-property:all;
+   -webkit-transition-property:all;
+    -moz-transition-property:all;
+	transition-property:all;
+
+
+}
+#page #gallery .six{
+-o-transition-duration:2s ;
+   -webkit-transition-duration: 2s ;
+    -moz-transition-duration: 2s;
+	transition-duration:2s ;
+
+
+}
+#page #gallery .six:hover{
+	-o-transition-delay:2s ;
+   -webkit-transition-delay:2s;
+    -moz-transition-delay: 2s;
+	transition-delay: 2s;
+
+}
+#page footer{
+	font-size: .8em;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body{
+    background: #fff;
+    font-family: Georgia, sans-serif;
+    font-size: .9em;
+
+
+}
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+    background:#340024;
+    font-family: verdana, sans-serif;
+    font-size: .7em;
+}
+
+}
+@media only screen and (max-width: 479px) {
+    body{
+    background:#000; 
+    font-family: tahoma, sans-serif;
+    font-size: .6em;
+}
+}

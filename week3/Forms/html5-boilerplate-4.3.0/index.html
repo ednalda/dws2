@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Boynton Beach Zoo Membership</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+       
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+ <div id="page">
+    <div id="header">
+        <p><img  id="logo"src="img/logo.jpg" width="70" height="70" alt="logo"/></p>
+        <div id="name"><h1>Boynton Beach Zoo</h1></div>
+
+          <div id="searchbox">
+          <label for="search">Search</label>
+          <input  id="seach" name="http://google.com" type="search">
+          <input type="checkbox" id="imagesCheckbox" name="search" value="isch" name="q" title= "check this is if you want to seach for images."/>
+          <label for="imagesChecbox">Images</label>
+          <input  type="submit" value="go"/>
+          </div>
+
+        <div id="menu">
+        <p>
+          <a href="#">Contact us<a/>
+          |<a href="#">Login<a/>
+        </p><!--End of paragraph-->
+        </div><!--End of menu-->
+    </div><!--End of header-->
+  <div id="content">
+    <form id="membership" method="post">
+
+     <hgroup>
+        <h2>Boynton Beach Zoo Membership</h2>
+          
+     </hgroup>
+
+     <fieldset>
+        <h3>Please, enter your information to become a Boynton Beach zoo member.</h3>
+      
+        <div id="info">
+          <label for="name">Name</label>
+          <input id="name" name="name" pattern="([a-zA-Z]){3,30}\s*)+[a-zA-Z]{3,30}" placeholder="John Smith" required aria-required="true"><br/><br/>
+         
+        
+        
+          <label for="tel">Phone</label>
+          <input id="tel" type="tel" name="tel" placeholder="1-234-546758" autocomplet="off" required aria-required="true"><br/><br/>
+      
+
+        
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="johnsmith@gmail.com" autocomplet="off" required aria-required="true"><br/><br/>
+          <label for="address">Address</label>
+          <input id="address" name="address" required aria-required="true"></br><br/>
+        </div>
+          <hr />
+
+          <div id="address">
+            <form id="list" onsubmit="return display()" method="post">
+              <p>Select your State:<br/>
+                <select name="select1">
+                  <option value="" disabled selected>--Select your State--</option>
+                  <option value="Alabama">Alabama</option>
+                  <option value="Alabama">Alaska</option>
+                  <option value="Alabama">Arizona</option>
+                  <option value="Alabama">Arkansas</option>
+                  <option value="Alabama">California</option>
+                  <option value="Alabama">Connecticut</option>
+                </select>
+              </p>
+              <p><input type="submit" name="submit1"value="submit" onclick="return display()"/></p>
+            </form>
+          </div>
+          <hr/>
+
+      <div id="family">
+        <form action="demo_form.asp">
+          When is your birthday moth year: <input type="month" name="bdaymonth">
+          
+        </form><br/>
+      
+          
+        
+        <form action="demo_form.asp">
+          How many children do you have: <input type="number" name="quantity" min="1" max="5">
+          
+        </form><br/>
+     
+
+      
+        <form action="demo_form.asp" method="get">
+          How many guests:<input type="range" name="points" min="1" max="10">10
+         
+        </form>
+      </div>
+
+          <hr />
+          <h3>Choose your username and password:</h3>
+          <div>
+          <label for="Username">Username</label>
+          <input id="namefield" type="text" name="name" required aria-required="true"><br/><br/>
+          </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="text" name="password"><br/>
+        </div><br/>
+          <hr />
+          <h3>Preferences:</h3>
+        <div>
+          <span class="grouplabel">Favorite Music:</span>
+          <input type="radio" name="music" id="coutry">Country</input>
+          <input type="radio" name="music" id="rock">Rock</input>
+          <input type="radio" name="music" id="latino">Latino</input><br/><br/>
+        </div>
+
+        <div>
+          <span class="grouplabel">Sign up for newletter:</span>
+          <input type="checkbox" id="news">
+          <label for="news"/>yes</br /><br/>
+        </div>
+
+        <div>
+          <label for="comment">Comments</label>
+          <textarea></textarea><br/></br>
+        </div>
+        <hr/>
+       <div id="button">
+           <form id="submit"><input type="submit" value="Submit"></form>
+           <form id="cancel"><input type="submit" value="cancel"></form>
+       </div>
+          
+      </fieldset><!--End of fieldset-->
+    </form><!--End of form-->
+  </div><!--End of content-->
+      <div id="footer">
+          <p>&copy Ednalda Fakira &nbsp &nbsp <a href="#">Privacy Policy<a/>|<a href="#">Terms and Conditions<a/>|<a href="#">Facebook<a/></p>
+      </div><!--End of footer-->
+</div><!--End of page-->
+
+
+    </body>
+</html>

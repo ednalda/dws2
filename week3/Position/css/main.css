@@ -1,0 +1,566 @@
+
+html,body,header,footer,ul,figure,img,div,iframe,h1,h2,h3,p{
+	display: block;
+}
+
+
+
+/*====Basic Styles====*/
+body{
+	background:#cccc99;
+	width:90%;
+	margin:0 auto;
+	font-size:1.2em;
+}
+
+#outer{
+	position: relative;
+	float:left;
+    width:100%;
+    height: 90%;
+    margin:0 auto 0 auto;
+	font-family: Georgia, sans-serif;
+	font-size:.9;
+	color:#3B3938;
+	padding: 1%;
+
+	
+
+}
+
+h1,h2,h3{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+font-size: 1.6em;
+}
+h2{
+font-size: 1.4em;
+}
+h3{
+font-size:1.3em;
+}
+
+p{
+
+}
+a:link, a:visited{
+	text-decoration: none;
+	color:#b36b00;
+}
+a:hover, a:active{
+	color:#566440;
+}
+#outer img{
+
+ }
+/*===header===*/
+ #header{
+ 	position:relative;
+ 	float:left;
+	height:40%;
+	background: #fff;
+	width:100%;
+
+	}
+ #header #logo{
+ 	position:absolute;
+ 	left:0;
+ 	top:10%;
+    width:20%;
+    height: 20%;
+	}
+
+ #name{
+		position:absolute;
+		left:20%;
+		top:0;
+		
+	}
+ 
+ #header #menu{
+	position:relative;
+	float:right;
+    bottom: 10%;
+	
+}
+
+ #header #menu p{
+	font-size: .8;
+}
+ #header #mainMenu{
+	width:100%;
+	position:relative;
+	float: left;
+	list-style:none;
+	margin:0;
+	top:5%;
+	bottom: 5%;
+	background: purple;
+	text-align: center;
+	border: solid 1px #aaa;
+	
+}
+
+#header #mainMenu li{
+	position:relative;
+	float:left;
+	margin:0;
+	font-size: 1.4em;
+	text-align: center;
+	list-style-type: none;
+	padding-right:20%;
+	color: #000000;
+}
+
+#header #mainMenu li a{
+   color: #fff;
+   text-decoration: none;
+
+}
+#header #mainMenu li a:hover, a:active{
+	color:#566440;
+}
+
+/*===content===*/
+ #content{
+ 	position: relative;
+ 	float: left;
+ 	background: #fff;
+ 	width:100%;
+ 	margin:2% 0;
+
+}
+
+/*===mainContent===*/
+#content #mainContent{
+	width:70%;
+ 	position: relative;
+    float: left;
+    background:#ffffff;
+    margin:2% 0;
+
+
+}
+#content #mainContent p{
+	font-size: 1.1em;
+
+}
+#mainContent #first{
+	position:relative;
+	float:left;
+	width: 50%;
+
+
+	 
+}
+#mainContent #second{
+	position:relative;
+	float:right;
+	width: 50%;
+	
+}
+
+#mainContent #first #hours{
+	position:relative;
+	width:40%;
+	float:left;
+	border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin:0 5%;
+}
+
+#mainContent #first #zooEvents{
+	position:relative;
+	width:40%;
+	float:right;
+	border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+	margin:0 5%;
+}
+#mainContent #second #education{
+	position:relative;
+	width:40%;
+	float:left;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin:0 5%;
+} 
+#mainContent #second #groupEvents{
+	position:relative;
+	width:40%;
+	float:right;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin:0 5%;
+}
+
+   
+#content #mainMenu table{
+	position:absolute;
+	left:0;
+	width:30%;
+	padding:1%;
+	border: solid 3px #aaa;
+
+}
+
+
+/*===sideBar===*/
+#sideBar{
+	width:28%;
+	position:relative;
+	float: right;
+	
+	padding-right: 1%;
+    background:#ffffff;
+    
+    
+}
+#content #sideBar img{
+	width: 350px;
+	height: 250px;
+	padding: 1%;
+	max-width: 100%;
+	margin: 0 1%;
+
+
+}
+#sideBar p li{
+	font-size: 1.1em;
+}
+#sideBar li{
+	list-style-type: square;
+}
+
+/*===footer===*/
+#footer{
+	position:relative;
+	float:left;
+	text-align: center;
+	width: 100%;
+	color:#fff;
+	font-size: .8em;
+	
+}
+
+/*===@mediaQueries====*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body{
+	 	font-size: 1em;
+	 	background:	#c9a8e0;
+	 }
+
+	#header{
+	position:relative;
+ 	float:left;
+ 	width:100%;
+	}
+
+	#header #mainMenu{
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+    border-right: none;
+    border-left: none;
+    font-size: .9em;
+	}
+	
+ #content,#mainContent,#sideBar p,li{
+ 	font-size: 1em;
+ }
+	#content #mainContent{
+	width:100%;
+ 	position: relative;
+    left:0;
+	
+}
+#sideBar{
+	width:100%;
+	position:relative;
+	left:0;
+	border-left: none;	
+
+}
+#content #sideBar img{
+	width: 200px;
+	height: 200px;
+	padding: 1%;
+	max-width: 100%;
+	float:right;
+
+}
+#mainContent #first{
+position:relative;
+	width:100%;
+	left:0;
+}
+#mainContent #second{
+position:relative;
+	width:100%;
+	left:0;	
+}
+#mainContent #first #hours{
+	position:relative;
+	width:40%;
+	float:left;
+    border-right: none;
+    border-left: none;
+    margin:0 5%;
+}
+
+#mainContent #first #zooEvents{
+	position:relative;
+	width:40%;
+	float:right;
+	margin:0 5%;
+}
+#mainContent #second #education{
+	position:relative;
+	width:40%;
+	float:left;
+    margin:0 5%;
+} 
+#mainContent #second #groupEvents{
+	position:relative;
+	width:40%;
+	float:right;
+    margin:0 5%;
+}
+#footer{
+	font-size: .7em;
+}
+
+h1{
+font-size: 1.3em;
+}
+h2{
+font-size: 1.2em;
+}
+h3{
+font-size:1.1em;
+}
+}
+	
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	body{
+	 	font-size: 1em;
+	 	background:#c19a53;
+	 }
+
+	#header{
+	position:relative;
+ 	float:left;
+ 	width:100%;
+	}
+	
+	
+	#header #mainMenu{
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+    border-right: none;
+    border-left: none;
+    font-size: .9em;
+	}
+	
+ #content,#mainContent,#footer, #sideBar p,li{
+ 	font-size: .9em;
+ }
+	#content #mainContent{
+	width:100%;
+	position: relative;
+	left: 0;
+ 	
+}
+#sideBar{
+	width:100%;
+	border-left: none;
+	position: relative;
+	left:0;
+    
+}
+#content #sideBar img{
+	width: 150px;
+	height: 150px;
+	padding: 1%;
+	max-width: 100%;
+	float:right;
+	
+
+}
+#content #mainContent #first{
+position:relative;
+	width:100%;
+	left:0;
+}
+#content #mainContent #second{
+position:relative;
+	width:100%;
+	right:0;	
+}
+#mainContent #first #hours{
+	position:relative;
+	width:40%;
+	float:left;
+    margin:0 5%;
+}
+
+#mainContent #first #zooEvents{
+	position:relative;
+	width:40%;
+	float:right;
+    margin:0 5%;
+}
+#mainContent #second #education{
+	position:relative;
+	width:40%;
+	float:left;
+    margin:0 5%;
+} 
+#mainContent #second #groupEvents{
+	position:relative;
+	width:40%;
+	float:right;
+    margin:0 5%;
+}
+#footer{
+	font-size: .6em;
+}
+
+h1{
+font-size: 1.2em;
+}
+h2{
+font-size: 1.1em;
+}
+h3{
+font-size:1em;
+}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+	 body{
+	 	font-size: 1em;
+	 	background:black;
+	 }
+
+	#header{
+	position:relative;
+ 	float:left;
+ 	width:100%;
+ 	
+	}
+	
+	
+	#header #menu{
+		font-size: .8em;
+	}
+	
+	#header #mainMenu{
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+    border-right: none;
+    border-left: none;
+    font-size: .8em;
+
+	}
+
+ #content,#mainContent,#footer, #sideBar p,li{
+ 	font-size: .8em;
+ }
+	#content #mainContent{
+	width:100%;	
+	position: relative;
+	left: 0;
+}
+ #content #sideBar{
+	width:100%;
+	border-left: none;
+	position: relative;
+	left: 0;
+	max-width: 100%;
+	
+}
+#content #sideBar img{
+	position:relative;
+	float:right;
+	width: 100px;
+	height: 100px;
+	padding: 1%;
+	max-width: 100%;
+
+}
+
+#mainContent #first{
+position:relative;
+	width:100%;
+	left:0;
+}
+#mainContent #second{
+position:relative;
+	width:100%;
+	left:0;	
+}
+#mainContent #first #hours{
+	position:relative;
+	width:100%;
+	left:0;
+	 margin:0;
+	
+}
+
+#mainContent #first #zooEvents{
+	position:relative;
+	width:100%;
+	left:0;
+	 margin:0;
+	
+}
+#mainContent #second #education{
+	position:relative;
+	width:100%;
+	left:0;
+	 margin:0;
+    
+    
+    
+} 
+#mainContent #second #groupEvents{
+	position:relative;
+	width:100%;
+	left:0;
+    margin:0;
+    
+}
+
+#footer{
+	font-size: .5em;
+}
+
+
+h1{
+font-size: 1em;
+}
+h2{
+font-size: .9em;
+}
+h3{
+font-size:.8em;
+}
+}
+
+	
+
